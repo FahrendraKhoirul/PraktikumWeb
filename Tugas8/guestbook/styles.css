@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #5D8EFC;
+  margin: 24px;
+}
+
+.login {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.title {
+  color: white;
+  font-size: x-large;
+  margin: 24px auto;
+  text-align: center;
+
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.container2 {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500;
+}
+
+.textinput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.submitbutton {
+  background-color: #5D8EFC;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1em;
+  margin: 24px auto;
+  text-align: center;
+}
+
+th {
+  background-color: #5D8EFC;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+tr {
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}

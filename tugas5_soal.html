@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tugas 5</title>
+  </head>
+  <script>
+    function soal1() {
+      var angka = document.kirim.number1.value;
+      if (angka < 41) {
+        document.kirim.jawaban.value = "E";
+      } else if (angka < 56) {
+        document.kirim.jawaban.value = "D";
+      } else if (angka < 61) {
+        document.kirim.jawaban.value = "C";
+      } else if (angka < 66) {
+        document.kirim.jawaban.value = "BC";
+      } else if (angka < 71) {
+        document.kirim.jawaban.value = "B";
+      } else if (angka < 81) {
+        document.kirim.jawaban.value = "AB";
+      } else if (angka < 101) {
+        document.kirim.jawaban.value = "A";
+      }
+    }
+
+    function penjumlahan() {
+      var angka1 = document.soal2.angka1.value;
+      var angka2 = document.soal2.angka2.value;
+      document.soal2.nomor2.value = angka1 + angka2;
+
+    }
+
+    function pengurangan() {
+      var angka1 = document.soal2.angka1.value;
+      var angka2 = document.soal2.angka2.value;
+      document.soal2.nomor2.value = angka1 - angka2;
+
+    }
+
+    function perkalian() {
+      var angka1 = document.soal2.angka1.value;
+      var angka2 = document.soal2.angka2.value;
+      document.soal2.nomor2.value = angka1 * angka2;
+    }
+
+    function pembagian() {
+      var angka1 = document.soal2.angka1.value;
+      var angka2 = document.soal2.angka2.value;
+      document.soal2.nomor2.value = angka1 / angka2;
+
+    }
+
+  </script>
+
+  <body>
+    <h1>Soal no 1</h1>
+    <form method="POST" name="kirim">
+      <p><input type="text" name="number1"></p>
+      <p><input type="button" name="button1" value="NILAI" onclick="soal1(number1.value)"></p>
+      <p><input type="text" name="jawaban"></p>
+    </form>
+
+    <h1>Soal no 2</h1>
+    <form method="POST" name="soal2">
+      Bilangan 1 <input type="number" name="angka1">
+      Bilangan 2 <input type="number" name="angka2">
+      <br>
+      <br>
+      <input type="button" value="+" name="B1" onclick="penjumlahan()">
+      <input type="button" value="-" name="B2" onclick="pengurangan()">
+      <input type="button" value="x" name="B3" onclick="perkalian()">
+      <input type="button" value="/" name="B4" onclick="pembagian()">
+      <br>
+      <br>
+      Hasil <input type="text" name="nomor2">
+    </form>
+  </body>
+</html>
